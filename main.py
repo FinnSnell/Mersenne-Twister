@@ -46,8 +46,8 @@ class MT19937:
 
         return self.temper(y)
 
-# run the generator
-mt = MT19937(seed=5489) 
+# run the generator the numbers are set based on the seed
+mt = MT19937(seed=8787) 
 
 # print numbers
 print([mt.extract_number() for _ in range(10)])
